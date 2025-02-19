@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryan Johnson - Developer Homepage</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #282c34;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+        .skill {
+            background-color: #61dafb;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin: 5px;
+            transition: transform 0.3s;
+        }
+        .skill:hover {
+            transform: scale(1.1);
+        }
+        .about {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .about p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+        .contact {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .contact a {
+            color: #61dafb;
+            text-decoration: none;
+            font-size: 1.2em;
+            transition: color 0.3s;
+        }
+        .contact a:hover {
+            color: #21a1f1;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        .container {
+            animation: fadeIn 1s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ryan Johnson</h1>
+        <p>Developer & Former Reliability Analyst</p>
+    </header>
+    <div class="container">
+        <div class="skills">
+            <div class="skill">Java</div>
+            <div class="skill">C++</div>
+            <div class="skill">C</div>
+            <div class="skill">Python</div>
+            <div class="skill">Flutter</div>
+            <div class="skill">Go</div>
+            <div class="skill">PHP</div>
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">Math</div>
+        </div>
+        <div class="about">
+            <p>Hi there! I'm Ryan Johnson, a passionate developer from Memphis, TN. With a background as a Reliability Analyst at ALSAC/St. Jude Children's Research Hospital, I bring a unique perspective to coding and problem-solving. I enjoy working with a variety of programming languages and technologies, and I'm always eager to learn more.</p>
+        </div>
+        <div class="contact">
+            <p>Check out my blog: <a href="https://www.ryanjohnson.website/posts" target="_blank">ryanjohnson.website</a></p>
+        </div>
+    </div>
+</body>
+</html>
