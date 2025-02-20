@@ -1,12 +1,16 @@
+
+    <link rel="stylesheet" href="css/styles.css">
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ryan Johnson - Developer Homepage</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
+    <div class="static-gradient"></div>
+    <div class="gradient-animation"></div>
     <header>
         <h1>Ryan Johnson</h1>
         <p>Developer & Former Reliability Analyst</p>
@@ -28,8 +32,39 @@
             <p>Hi there! I'm Ryan Johnson, a passionate developer from Memphis, TN. With a background as a Reliability Analyst at ALSAC/St. Jude Children's Research Hospital, I bring a unique perspective to coding and problem-solving. I enjoy working with a variety of programming languages and technologies, and I'm always eager to learn more.</p>
         </div>
         <div class="contact">
-            <p>Check out my <a href="https://www.ryanjohnson.website/posts" target="_blank">Blog</a></p>
+            <p>
+                <a href="https://www.ryanjohnson.website/posts" target="_blank">
+                    <i class="fas fa-blog fa-icon"></i>
+                    <span class="username">Blog</span>
+                </a>
+            </p>
+            <p>
+                <a href="https://profile.codersrank.io/user/amdphreak" target="_blank">
+                    <i class="fab fa-codersrank fa-icon"></i>
+                    <span class="username">CodersRank</span>
+                </a>
+            </p>
+            <p>
+                <a href="https://github.com/amdphreak" target="_blank">
+                    <i class="fab fa-github fa-icon"></i>
+                    <span class="username">GitHub</span>
+                </a>
+            </p>
+            <p>
+                <a href="https://gitlab.com/AMDphreak" target="_blank">
+                    <i class="fab fa-gitlab fa-icon"></i>
+                    <span class="username">GitLab</span>
+                </a>
+            </p>
         </div>
     </div>
+    <script>
+        document.addEventListener('mousemove', (e) => {
+            const x = e.clientX;
+            const y = e.clientY;
+            document.documentElement.style.setProperty('--mouse-x', `${x}px`);
+            document.documentElement.style.setProperty('--mouse-y', `${y}px`);
+        });
+    </script>
 </body>
 </html>
