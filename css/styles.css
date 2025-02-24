@@ -135,6 +135,7 @@ header p {
 
 .contact a codersrank {
     font-size: 50px; !important
+    text-align: center;
 }
 
 .contact a .username {
