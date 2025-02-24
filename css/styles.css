@@ -133,13 +133,13 @@ header p {
 .contact a .fa-github { color: #333; }
 .contact a .fa-gitlab { color: #ff9800; }
 
-.contact a codersrank {
-    font-size: 50px; !important
-    text-align: center;
-}
-
 #svg-codersrank {
     width:100px;
+}
+
+#lbl-codersrank {
+    font-size: 50px;
+    text-align: center
 }
 
 .contact a .username {
@@ -154,6 +154,7 @@ header p {
     opacity: 0;
     transition: opacity 0.3s;
     pointer-events: none;
+    text-align: center;
 }
 
 .contact a:hover .username {
