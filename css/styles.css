@@ -138,6 +138,10 @@ header p {
     text-align: center;
 }
 
+#svg-codersrank {
+    width:100px;
+}
+
 .contact a .username {
     position: absolute;
     top: 50%;
