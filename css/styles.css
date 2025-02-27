@@ -81,6 +81,7 @@ header p {
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
+    user-select:none;
 }
 
 .skill {
