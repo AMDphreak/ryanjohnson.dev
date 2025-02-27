@@ -136,6 +136,7 @@ header p {
 
 #svg-codersrank {
     width:100px;
+    user-select:none;
 }
 
 #lbl-codersrank {
