@@ -59,18 +59,16 @@ header .section h1 {
 
 header .section h2 {
     font-size: 1.5em;
-    color: rgb(21 21 21 / 89%);
-    margin: 20px;
-    outline:#333;
 }
 
 .mainbody {
-    flex: 1;
     display: flex;
+    flex: 1;
     justify-content: center;
     border: #05ab75;
     border-width:3px;
     border-style:solid;
+    align-items:start;
 }
 
 .container {
