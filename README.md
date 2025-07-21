@@ -4,6 +4,6 @@ Deprecated Developer homepage for Ryan Johnson (AMDphreak). Hosted on Github pag
 
 <https://amdphreak.github.io>
 
-Update: Moved to Cloudflare pages/workers. Git repo: <https://www.github.com/AMDphreak/ryanjohnson.dev>
+Update: Moved to Cloudflare pages/workers. New [Git repo](<https://www.github.com/AMDphreak/ryanjohnson.dev>).
 
 - Available for hire: [LinkedIn](https://www.linkedin.com/in/amdphreak)
