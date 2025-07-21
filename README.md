@@ -1,7 +1,9 @@
-# amdphreak.pages.dev
+# amdphreak.github.io
 
-Developer homepage for Ryan Johnson (AMDphreak). Hosted on Cloudflare pages. Formerly hosted on Github Pages.
+Deprecated Developer homepage for Ryan Johnson (AMDphreak). Hosted on Github pages.
 
-<https://amdphreak.pages.dev>
+<https://amdphreak.github.io>
+
+Update: Moved to Cloudflare pages/workers. Git repo: <https://www.github.com/AMDphreak/ryanjohnson.dev>
 
 - Available for hire: [LinkedIn](https://www.linkedin.com/in/amdphreak)
